@@ -1,0 +1,54 @@
+.default-icons-color {
+    color: rgba(229, 229, 229, 1);
+}
+
+.icons-color {
+    color: rgba(7, 7, 7, 1);
+}
+
+.logo-image {
+    background-color: rgba(66, 51, 37, 0.98);
+    width: 66px;
+    height: 66px;
+}
+
+.figma {
+    width: 53px;
+    height: 80px;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    color: rgba(130, 130, 130, 1);
+}
+
+.skills-elements {
+    display: flex;
+}
+
+
+img {
+    width: 970px;
+    height: 387px;
+}
+
+a {
+    color: rgba(130, 130, 130, 1);
+    text-decoration: none;
+}
+
+hr {
+    color: rgba(130, 130, 130, 1);
+    border: 1px solid #828282;
+}
+
+p {
+    line-height: 25px;
+}
+h3 {
+    margin-top: 100px;
+}
+
+
+
