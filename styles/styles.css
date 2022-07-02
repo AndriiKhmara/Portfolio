@@ -9,7 +9,6 @@ body {
     margin-bottom: 0px;
 }
 
-
 header {
     display: flex;
     flex-direction: row;
@@ -22,7 +21,6 @@ header {
     left: 0px;
     top: 0px;
 }
-
 
 .nav-items {
     display: flex;
@@ -42,7 +40,7 @@ hr {
     border: 1px solid #828282;
 }
 
- .nav-items a {
+.nav-items a {
     color: rgba(130, 130, 130, 1);
     text-decoration: none;
     font-family: 'Open Sans';
@@ -241,8 +239,8 @@ img {
     margin-top: 25px;
 }
 
-i {
-    font-size: 26px;
+.default-icons-color, .figma-stars i {
+    font-size: 24px;
     margin-top: 70px;
 }
 
@@ -261,7 +259,6 @@ i {
 .default-icons-color {
     color: rgba(229, 229, 229, 1);
 }
-
 
 .icons-color {
     color: rgba(7, 7, 7, 1);
@@ -463,6 +460,5 @@ button:hover {
     background-color: rgba(130, 130, 130, 1);
     border: white;
 }
-
 
     
