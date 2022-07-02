@@ -222,7 +222,7 @@ img {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 97px;
+    gap: 105px;
     width: 970px;
     height: 230px;
 }
@@ -241,6 +241,11 @@ img {
     margin-top: 25px;
 }
 
+i {
+    font-size: 26px;
+    margin-top: 70px;
+}
+
 .ps,
 .ai,
 .af,
@@ -251,11 +256,6 @@ img {
     padding: 0px;
     width: 170px;
     height: 230px;
-}
-
-.figma-stars,
-.default-icons-color {
-    margin-top: 40px;
 }
 
 .default-icons-color {
