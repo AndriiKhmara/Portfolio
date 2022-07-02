@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
-    <header id="homepage">
-        <nav class="nav">
-            <ul>
-                <li>
+    <header class="header" id="homepage">
+        <nav>
+            <ul class="nav-items">
+                <li class="homepage">
                     <a href="#homepage">Home</a>
                 </li>
                 <li>
                     <a href="#about">About me</a>
                 </li>
                 <li>
-                    <a href="#skill">Skills</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
                     <a href="#portfolio">Portfolio</a>
@@ -31,144 +35,121 @@
         <hr>
     </header>
     <main>
-        <section>
+        <section class="first-screen">
             <h1>Denis Novik</h1>
             <div class="my-photo">
                 <img src="images/photox940.jpg" alt="my photo">
             </div>
         </section>
-        <section class="about-me">
-            <h3 id="about">About me</h3>
+        <section class="about-me" id="about">
+            <div class="background-about"></div>
+                <h3>About me</h3>
+                <div class="text-about-me">
                 <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
                 I'm interested in design and everything connected with it.</p>
                 <p>I'm studying at courses "Web and mobile design <br>
                 interfaces" in IT-Academy.</p>
                 <p>Ready to implement excellent projects <br>
                 with wonderful people.</p>
+                </div>
         </section>
-        <section class="skills">
-            <h3 id="skill">Skills</h3>
+        <section id="skills" class="skills">
+            <div class="header-skills">
+                <h3>Skills</h3>
+                <p>I work in such programs as</p>
+            </div>
             <div class="skills-elements">
-                <div>
+                <div class="ps">
                     <img class="logo-image" src="images/svg/Photoshop.svg" alt="logo Adobephotoshop">
                     <h5>Adobe Photoshop</h5>
                     <div class="default-icons-color">
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star"></i>
-                        </span>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                 </div>
-                <div>
+                <div class="ai">
                     <img class="logo-image" src="images/svg/Ai.svg" alt="logo adobeilustrator">
                     <h5>Adobe Illustrator</h5>
-                    <div class="default-icons-color"    >
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star"></i>
-                        </span>
+                    <div class="default-icons-color">
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                 </div>
-                <div>
+                <div class="af">
                     <img class="logo-image" src="images/svg/Ae.svg" alt="logo Adobeaftereffects">
                     <h5>Adobe After Effects</h5>
                     <div class="default-icons-color">
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star"></i>
-                        </span>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                 </div>
-                <div>
-                    <img class="figma" src="images/svg/Figma.svg" alt="logo Figma">
+                <div class="figma">
+                    <img class="logo-figma" src="images/svg/Figma.svg" alt="logo Figma">
                     <h5>Figma</h5>
-                    <div>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-star icons-color"></i>
-                        </span>
+                    <div class="figma-stars">
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
+                        <i class="fa-solid fa-star icons-color"></i>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="portfolio">
-            <h3 id="portfolio">Portfolio</h3>
-                <img src="images/Fashion-Store.jpg" alt="photo fashion store">
-                    <p>Online fashion store - Homepage</p>
-                <img src="images/reebok_web.jpg" alt="photo sportsman">
-                    <p>Reebok Store - Concept</p>
-                <img src="images/braun-landing.jpg" alt="photo camera">
-                    <p>Braun Landing Page - Concept</p>
+        <section>
+            <div id="portfolio" class="background-portfolio"></div>
+            <div class="portfolio">
+            <h3>Portfolio</h3>
+                <div class="pages">
+                <img class="portfolio-images" src="images/Fashion-Store.jpg" alt="photo fashion store">
+                <p>Online fashion store - <br>Homepage</p>
+                <img class="portfolio-images" src="images/reebok_web.jpg" alt="photo sportsman">
+                <p>Reebok Store - Concept</p>
+                <img class="portfolio-images" src="images/braun-landing.jpg" alt="photo camera">
+                <p>Braun Landing Page - Concept</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <section class="contacts">
-            <h3 id="mycontacts">Contacts</h3>
-            <p>Want to know more or just chat?
+            <div class="contacts-header">
+                <h3 id="mycontacts">Contacts</h3>
+                <p>Want to know more or just chat?
             You are welcome!</p>
-            <button name="button">Send message</button>
-            <div>
-                <span>
-                    <i class="fa-brands fa-linkedin fa-2x"></i>
-                </span>
-                <span>
-                    <i class="fa-brands fa-instagram-square fa-2x"></i>
-                </span>
-                <span>
-                    <i class="fa-brands fa-behance-square fa-2x"></i>
-                </span>
-                <span>
-                    <i class="fa-brands fa-dribbble-square fa-2x"></i>
-                </span>
             </div>
-            <p>Like me on <br>
-            LinkedIn, Instagram, Behance,<br> Dribble</p>
+            <div class="links"> 
+                <button name="button"><span class="button-text">Send message</span></button>
+                <div class="social-icons">
+                    <span>
+                       <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    </span>
+                    <span>
+                       <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram-square fa-2x"></i></a> 
+                    </span>
+                    <span>
+                       <a href="https://www.behance.net" target="_blank"><i class="fa-brands fa-behance-square fa-2x"></i></a> 
+                    </span>
+                    <span>
+                       <a href="https://dribbble.com" target="_blank"><i class="fa-brands fa-dribbble-square fa-2x"></i></a> 
+                    </span>
+                </div>
+            </div>
+            <div class="links-text">
+                <p>Like me on <br>
+                LinkedIn, Instagram, Behance,<br> Dribble</p>
+            </div>
         </section>
     </footer>
-    <script src="https://kit.fontawesome.com/106363a03a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/106363a03a.js" crossorigin="anonymous"></script> 
 </body>
 </html>
