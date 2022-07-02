@@ -53,6 +53,7 @@ hr {
 
 .nav-items a:hover {
     color: #070707;
+    font-size: 20px;
 }
 
 .homepage a {
@@ -67,6 +68,7 @@ hr {
 
 .homepage a:hover {
     color: rgba(130, 130, 130, 1);
+    font-size: 20px;
 }
 
 li {
